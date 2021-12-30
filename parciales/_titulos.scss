@@ -1,0 +1,54 @@
+.tituloSeccion {
+    font-size: 40px;
+    margin: 25px 10px 25px 10px;
+    font-weight: 800;
+}
+
+.tituloSecundario {
+  font-size: 25px;
+  margin: 0px 10px 20px 10px;
+  font-weight: 600;
+}
+
+.tituloProductos {
+  font-size: 40px;
+  margin: 20px 10px 20px 10px;
+  font-weight: 600;
+}
+
+.tituloPrendasPrincipales {
+  font-size: 30px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.titulo404 {
+  font-size: 40px;
+  margin: 25px 0 25px 0;
+  font-weight: 800;
+}
+
+
+// --------------------
+// Media querie 1080px
+
+@media screen and (min-width: 1080px) {
+  .tituloSeccion {
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+  }
+
+  .tituloSecundario {
+    font-size: 35px;
+  }
+  
+  .tituloProductos {
+    font-size: 50px;
+    margin: 0px 0px 100px 0px;
+  }
+  
+  .titulo404 {
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+  }
+}

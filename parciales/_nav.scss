@@ -1,0 +1,84 @@
+// Nav
+.navegacion {
+  @include flexColumnCenter();
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: $primario;
+}
+
+.navegacion ul{
+  padding-top: 16px;
+}
+
+.navegacion ul li:hover {
+  background-color: $hover;
+}
+
+.navegacion ul li a {
+  color: $secundario;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+// ------------------
+// Menú de navegación
+
+.menu {
+  @include flexColumnCenter();
+  list-style: none;
+}
+
+.menu > li > a {
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+
+// ------
+// Subnav
+
+.submenu {
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  // Nav
+  .navegacion ul{
+    padding: 0;
+  }
+
+  .contenidoNavbar{
+    padding: 0;
+  }
+
+  .menu {
+     flex-direction: row;
+     justify-content: center;
+  }
+
+
+  // ------
+  // Subnav
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: $primario;
+    list-style: none;
+    width: 140px;
+  }
+
+  .submenu li{
+    border-top: 1px solid $secundario;
+  }
+
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  .submenu > li > a {
+    display: inline-block;
+    padding: 20px;
+  }
+}

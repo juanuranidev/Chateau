@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="En Chateau estamos buscando una nueva forma de vestirse. Entra y mira todos nuestros productos.">
+    <meta name="keywords" content="ropa, buzos, remeras, pantalones, outfit, chateau">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chateau - una nueva forma de vestirse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+
+<header>
+    <nav class="navegacion navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid contenidoNavbar">
+            <a class="navbar-brand" href="index.html"><img src="images/chateau.png" alt="" class="imagenNav"></a>
+            <button class="navbar-toggler buttonNav navbar-dark bg-black" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle   navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="menu">
+                    <li class="nav-item"><a href="index.html">Inicio</a></li>         
+                    <li class="nav-item"><a href="html/productos.html">Productos</a>
+                    <ul class="submenu">
+                   <li class="nav-item"><a href="html/pantalones.html">Pantalones</a></li>
+                   <li class="nav-item"><a href="html/remeras.html">Remeras</a></li>
+                   <li class="nav-item"><a href="html/buzos.html">Buzos</a></li>
+                </ul>
+                    <li><a href="html/talles.html">Talles</a></li>   
+                    <li><a href="html/direccion.html">Dirección</a></li>        
+                    <li><a href="html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <img src="images/portada.gif" alt="tienda de ropa" class="imagenPrincipal">
+</header>
+
+<!-- Main -->
+
+<main class="mainProductos espacioEntreSecciones">
+    <h1 class="tituloSeccion">Productos Chateau</h1>
+    <div class="divPrendas">
+        <div>
+            <h2 class="tituloPrendasPrincipales">Remeras</h2>
+            <a href="html/remeras.html"><img src="images/remera.png" alt="remeras"  class="imagenPrincipalDelProducto"></a>
+        </div>
+        <div>
+            <h2 class="tituloPrendasPrincipales">Pantalones</h2>
+            <a href="html/pantalones.html"><img src="images/pantalon.png" alt="pantalones" class="imagenPrincipalDelProducto"></a> 
+        </div>
+        <div>
+            <h2 class="tituloPrendasPrincipales">Buzos</h2>
+            <a href="html/buzos.html"><img src="images/buzo.png" alt="buzos" class="imagenPrincipalDelProducto"></a>
+        </div>
+    </div>
+</main>
+
+<!-- Section 1 -->
+
+<section class="espacioEntreSecciones">
+    <div class="divNuevaTemporada">
+        <h3 class="tituloSecundario">La nueva temporada ya está aquí</h3>
+        <h4 class="textoGrande">¿Qué estás esperando?</h4>
+        <a href="html/productos.html"><button>Comprar</button></a>
+    </div>
+</section>
+
+<!-- Section 2 -->
+
+<section class="espacioEntreSecciones">
+    <div class="divModelos">
+        <img src="images/modelo1.jpg" alt="modelo de ropa" class="imagenModelo">
+        <img src="images/modelo2.jpg" alt="modelo de ropa" class="imagenModelo">
+        <img src="images/modelo3.jpg" alt="modelo de ropa" class="imagenModelo">
+    </div>
+    <div class="divBotonGaleria">
+        <a href="html/galeria.html"><button>Ver galería</button></a>
+    </div>
+</section>
+
+<!-- Section 3 -->
+
+<section class="espacioEntreSecciones">
+    <div class="divGorraIndex">
+        <img src="images/gorra.png" alt="imagen de gorra" class="imagenGorra">
+    </div>
+</section>
+
+<!-- Section 4 -->
+
+<section class="espacioEntreSecciones">
+    <div class="divContacto">
+        <h2 class="tituloSecundario">¿Necesitas más información?</h2>
+        <h3 class="textoGrande">No dudes en contactarnos</h3>
+        <a href="html/contacto.html"><button>Contacto</button></a>
+    </div>
+</section>
+
+<!-- Boton de WhatsApp -->
+
+<span>
+    <a href="#"><img src="images/whatsapp.png" alt="ícono de whatsapp" class="imagenWhatsapp"></a>
+</span>
+
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="footerInformacion">
+        <p>27 de Abril 357 Córdoba, Argentina.</p>
+        <p>Todos los derechos reservados ©</p>
+        <a href="#"><img src="images/instagram.png" alt="Instagram" class="imagenRedesSociales"></a>
+        <a href="#"><img src="images/facebook.png" alt="Facebook" class="imagenRedesSociales"></a>
+        <a href="#"><img src="images/tiktok.png" alt="TikTok" class="imagenRedesSociales"></a>
+        <a href="#"><img src="images/whatsapp2.png" alt="WhatsApp" class="imagenRedesSociales"></a>
+    </div> 
+    <div class="footerSuscripcion">
+        <P class="textoSuscripcion">Suscríbete para enterarte de nuestros últimos lanzamientos</P>
+        <form action="#">
+            <fieldset class="fieldsetSuscripcion">
+                <input type="text" name="infopersonal" placeholder="Tu email" class="emailSuscripcion">
+                <input type="submit" value="Suscribirse" class="enviarSuscripcion">
+            </fieldset>
+        </form>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

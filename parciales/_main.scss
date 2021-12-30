@@ -1,0 +1,25 @@
+.mainProductos {
+    text-align: center;
+}
+
+.mainTalles {
+  @include flexColumnCenter();
+  text-align: center;
+}
+
+.mainDireccion {
+  @include flexColumnCenter();
+  text-align: center;
+}
+
+.mainContacto {
+  text-align: center;
+}
+
+.mainGaleria {
+  text-align: center;
+}
+
+.main404 {
+  @include flexColumnCenter();
+}

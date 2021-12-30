@@ -1,0 +1,44 @@
+button {
+  background-color: $primario;
+  border-radius: 50px;
+  height: 50px;
+  transition: .5s;
+  text-decoration: none;
+  color: $secundario;
+  font-weight: bold;
+  width: 150px;
+}
+
+.buttonProductos {
+  width: 150px;
+  margin: 10px 0px;
+}
+
+.button404 {
+  width: 150px;
+  margin: 0;
+}
+
+
+// --------------------
+// Media querie 1080px
+
+@media screen and (min-width: 1080px) {
+  button {
+    width: 200px;
+  }
+
+  button:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
+  }
+
+  .buttonProductos {
+    margin: 10px 0px 0px 10px;
+  }
+
+  .button404 {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+}

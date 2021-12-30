@@ -1,0 +1,73 @@
+.contenidoNavbar{
+    @include flexColumnCenter();
+    padding: 1rem;
+}
+
+.divPrendas{
+    @include flexColumnCenter();
+}
+
+.divNuevaTemporada{
+    @include flexColumnCenter();
+    text-align: center;
+}
+
+.divModelos{
+    @include flexColumnCenter();
+}
+
+.divBotonGaleria{
+    @include flexColumnCenter();
+    margin-top: 10px;
+}
+
+.divGorraIndex{
+    @include flexColumnCenter();
+}
+
+.divTalles{
+    text-align: center;
+}
+
+.divContacto{
+    @include flexColumnCenter();
+    text-align: center;
+}
+
+.divGaleria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 24px 0px;
+    justify-items: center;
+    
+}
+
+.divBotonAtras{
+    @include flexColumnCenter();
+}
+
+
+// --------------------
+// Media querie 1080px
+
+@media screen and (min-width: 1080px) {
+    .contenidoNavbar{
+        padding: 0;
+    }
+    .divPrendas{
+        @include flexRowCenter();
+    }
+    
+    .divModelos{
+        @include flexRowCenter();        
+    }
+
+    .divBotonGaleria{
+        margin-top: 50px;
+    }
+
+    .divBotonAtras{
+        flex-direction: row;
+    }
+}

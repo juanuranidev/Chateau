@@ -1,0 +1,71 @@
+.footer{
+    @include flexColumnCenter();
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: $primario;
+    color: $secundario;
+    font-weight: bold;
+    box-shadow: $boxShadow;
+}
+
+.footerInformacion{
+    margin-bottom: 25px;
+}
+
+.footer p{
+    margin: 0 10px 10px 10px;
+}
+
+
+// -----------
+// Suscribirse
+
+.fieldsetSuscripcion{
+    @include flexColumnCenter();
+    border: none;
+    padding: auto 0px;
+}
+
+.emailSuscripcion{
+    width: 200px;
+    height: 30px;
+    border: 1px solid $primario;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.enviarSuscripcion{
+    width: 100px;
+    height: 30px;
+    border: 1px solid $primario;
+    font-weight: bold;
+}
+
+
+// --------------------
+// Media querie 1080px
+
+@media screen and (min-width: 1080px) {
+    .footer{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 100px 50px 100px;
+    }
+
+    .footerInformacion{
+        margin-bottom: 0px;
+    }
+
+    .fieldsetSuscripcion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .emailSuscripcion{
+        margin: 0px 10px 0px 0px;
+    }
+}
