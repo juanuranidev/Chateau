@@ -2,7 +2,7 @@
 This is my first project. Clothing store website made with html, css, sass, bootstrap and javascrpt, for the final project of the web development course.
 
 # Demo
-https://newclothingstore.netlify.app/
+https://chateaustore.netlify.app/
 
 # Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
