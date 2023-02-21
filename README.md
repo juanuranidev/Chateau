@@ -13,43 +13,10 @@ https://chateaustore.netlify.app/
 
 # Features
 Home, products, sizes, direction and contact pages <br>
-Responsive design<br>
-Gallery<br>
-Animations<br>
-Products<br>
-
-
-# Libraries
-**React for creating a modern web app 17.0.2**<br>
-npx create-react-app my-app<br>
-https://create-react-app.dev/
-
-**TypeScript for better code 4.6.2**<br>
-npm install --save typescript @types/node @types/react @types/react-dom @types/jest<br>
-https://create-react-app.dev/docs/adding-typescript/
-
-**React Router Dom for routing 6.2.2**<br>
-npm install react-router-dom@6<br>
-https://reactrouter.com/
-
-**SASS for styling 1.49.9**<br>
-npm install sass<br>
-https://create-react-app.dev/docs/adding-a-sass-stylesheet/
-
-**Firebase for the database 9.6.8**<br>
-npm install firebase<br>
-https://firebase.google.com/docs/web/setup?hl=es
-
-**Framer Motion for animations 6.2.8**<br>
-npm install framer-motion<br>
-https://www.framer.com/motion/
-
-**React Hook Form for the purchase form 7.29.0**<br>
-npm install react-hook-form<br>
-https://react-hook-form.com/
-
-# Data
-Products stolen from: <a href="https://freres.ar/" target="_blank">Freres</a> ❤️
+Responsive design <br>
+Gallery <br>
+Animations <br>
+Products <br>
 
 # My Portfolio
 https://juanurani.netlify.app/
